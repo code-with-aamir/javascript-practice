@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Switch Statement Age Verification</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var age = 45;
+
+      switch (true) {
+        case age >= 15 && age <= 20:
+          document.write("You are Eligible");
+          break;
+
+        case age >= 20 && age <= 30:
+          document.write("You are not Eligible");
+          break;
+
+        default:
+          document.write("Enter a valid age");
+      }
+    </script>
+  </body>
+</html>

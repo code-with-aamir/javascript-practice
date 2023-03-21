@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Prompt Function</title>
+</head>
+<body>
+
+    <h4>Please Enter Your Data Press Call Button</h4>
+
+    Name:<i id="result"></i>
+    <br>
+    <br>
+    FName:<i id="result2"></i>
+    <br>
+    <br>
+
+    <button onclick="call()">call</button>
+    
+    
+</body>
+<script type="text/javascript">
+   function call(){
+    var name = prompt("Enter your name!")
+    var fname = prompt("Enter your father name!")
+    //document.write('result')
+    document.getElementById('result').innerHTML = name;
+    document.getElementById('result2').innerHTML = fname;
+   }
+</script>
+</html>
